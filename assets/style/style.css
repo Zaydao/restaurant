@@ -2,6 +2,7 @@
     --black: #311F09;
     --orange: #FF8A00;
     --green: #3FA72F;
+    --wite-orange: #ffe6c9;
 }
 
 body, html{
@@ -15,6 +16,11 @@ body, html{
 
 *{
     box-sizing: border-box;
+
+}
+h1, h2, h3, h4, p{
+    margin: 0;
+    padding: 0;
 }
 .container{
     max-width: 1237px;
@@ -74,4 +80,61 @@ nav a:last-of-type{
 
 nav a.checked{
     color: var(--orange);
+}
+
+/* main */
+
+main{
+    margin-top: 166px;
+
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.main-content-about{
+    color: var(--orange);
+    background-color: var(--wite-orange);
+    padding: 10px 34px;
+    border-radius: 126px;
+    display: inline-block;
+    margin-bottom: 22px;
+}
+.main-container h1{
+    color: var(--black);
+    font-size: 80px;
+    line-height: 110%;
+    margin-bottom: 30px;
+}
+.main-container p{
+    margin-bottom:77px ;
+    font-weight: 400px;
+    line-height: 200%;
+    color: var(--black);
+}
+
+.main-content-buttons a:first-of-type{
+    padding: 17px 62px ;
+    background-color: var(--orange);
+    border-radius: 162px;
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 23px;
+    transition: transform .4s ease;
+    display: inline-block;
+}
+.main-content-buttons a:last-of-type{
+    padding: 17px 55px ;
+    background-color: var(--green);
+    border-radius: 162px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 23px;
+    transition: transform .4s ease;
+    display: inline-block;
+}
+.main-content-buttons a:hover{
+    transform: scale(1.10);
 }
