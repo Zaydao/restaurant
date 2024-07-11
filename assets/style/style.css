@@ -138,3 +138,48 @@ main{
 .main-content-buttons a:hover{
     transform: scale(1.10);
 }
+
+/* welcome */
+
+.welcome{
+    margin-top: 301px;
+    background-color: #f7f7f7;
+
+}
+.welcome-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.welcome-about{
+    align-items: center;
+}
+.welcome-about h2{
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    font-weight: 700px;
+    line-height: 88px;
+}
+.welcome-about h2 span{
+    color: var(--orange);
+}
+
+.welcome-about p{
+    margin-top: 60px;
+    color: var(--black);
+    line-height: 40px;
+}
+
+.welcome-button a{
+    display: inline-block;
+    margin-top: 122px;
+    background-color: var(--orange);
+    color: #FFF;
+    padding: 17px 45px;
+    border-radius: 162px;
+    text-decoration: none;
+    transition: transform .4s ease;
+}
+
+.welcome-button a:hover{
+    transform: scale(1.10);
+}
