@@ -3,6 +3,7 @@
     --orange: #FF8A00;
     --green: #3FA72F;
     --wite-orange: #ffe6c9;
+    --gray: #D0CCC7;
 }
 
 body, html{
@@ -182,4 +183,51 @@ main{
 
 .welcome-button a:hover{
     transform: scale(1.10);
+}
+
+/* menu */
+
+.menu{
+    padding-top: 164px;
+    padding-bottom: 201px;
+}
+
+.menu h2{
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    font-weight: 700px;
+    text-align: center;
+    line-height: 200%;
+    color: var(--black);
+    margin-bottom: 60px;
+}
+
+.menu-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.menu-buttons a{
+    background-color: var(--gray);
+    color: var(--black);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 17px 64px;
+    border-radius: 162px;
+
+    transition: background-color .5s ease;
+    
+}
+
+.menu-buttons a:hover{
+    background-color:var(--black);
+    color: #fff;
+
+}
+
+.menu-buttons .checked{
+    background-color: var(--black);
+    color: #fff;
 }
