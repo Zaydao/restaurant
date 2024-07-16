@@ -210,7 +210,7 @@ main{
 }
 
 .menu-buttons a{
-    background-color: var(--gray);
+    background-color: rgba(208, 204, 199, 0.2);
     color: var(--black);
     font-size: 20px;
     text-decoration: none;
@@ -231,3 +231,158 @@ main{
     background-color: var(--black);
     color: #fff;
 }
+
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 88px;
+}
+
+.menu-item{
+    width: 32%;
+    background-color: rgba(208, 204, 199, 0.2);
+    border-radius: 70px;
+    text-align: center;
+    padding: 33px 29px ;
+    margin-bottom: 40px;
+    
+    transition: transform .4s ease;
+}
+
+.menu-item:hover{
+    transform: scale(1.1);
+    background-color: rgba(208, 204, 199, 0.4);
+}
+
+
+.menu-item h3{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 200%;
+    margin-bottom: 5px;
+}
+.menu-raiting{
+    margin-bottom: 15px;
+}
+
+.menu-raiting img{
+    margin-right: 10px;
+}
+.menu-raiting img:last-of-type{
+    margin-right: 0px;
+}
+
+.menu-item p{
+    font-size: 14px;
+    line-height: 200%;
+    margin-bottom: 30px;
+}
+
+.menu-item__last{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+.menu-item__last h4{
+    font-size: 25px;
+    line-height: 37.5px;
+}
+
+.menu-item__last a{
+    color: #fff;
+    background-color: var(--orange);
+    border-radius: 162px;
+    padding:11px 36px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu-pag{
+    display: flex;
+    justify-content: center;
+}
+.menu-pag a{
+    text-decoration: none;
+}
+
+.back{
+    background-color: var(--black);
+    border-radius: 15px;
+    margin-right: 30px;
+    color: #fff;
+    
+
+    height: 55px;
+    width: 55px;
+
+    position: relative; 
+}
+
+.back span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 46px;
+} 
+
+.page{
+    position: relative;
+    background-color: rgba(255, 138, 0, 0.1);
+    width: 55px;
+    height: 55px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.page span{
+    color: var(--orange);
+    font-size: 16px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.dot{
+    position: relative;
+    width: 55px;
+    height: 55px;
+
+}
+
+.dot span{
+    color: #B7A28B;
+    font-size: 26px;
+    font-weight: 600px;
+
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.next{
+    background-color: var(--black);
+    border-radius: 15px;
+    margin-left: 30px;
+    color: #fff;
+    
+
+    height: 55px;
+    width: 55px;
+
+    position: relative; 
+}
+
+.next span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 46px;
+} 
