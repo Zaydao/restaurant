@@ -386,3 +386,62 @@ main{
     transform: translate(-50%, -50%);
     font-size: 46px;
 } 
+
+/* reserv */
+
+.reserve{
+    padding-top: 200px;
+    padding-bottom: 39px;
+    background-color: rgba(255, 244, 231, 0.1);
+   
+}
+
+.reserve .container{
+    max-width: 1466px;
+    margin-right: 120px;
+}
+.reserve-iner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.reserve-left{
+    margin-left: -80px;
+}
+
+
+.reserve-right{
+    margin-left: 103px;
+}
+
+.reserve-right h2{
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    font-weight: 700px;
+    line-height: 88px;
+
+
+}
+.reserve-right h2 span{
+    color: var(--orange);
+}
+
+
+.reserve-right p{
+    margin-top: 50px;
+    line-height: 40px;
+    color: var(--black);
+    margin-bottom: 132px;
+
+}
+
+.reserve-right a{
+    
+    color: #fff;
+    padding: 17px 55px;
+    text-decoration: none;
+    background-color: var(--orange);
+    border-radius: 162px;
+}
