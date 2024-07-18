@@ -445,3 +445,70 @@ main{
     background-color: var(--orange);
     border-radius: 162px;
 }
+
+/* chef */
+
+.chef{
+    padding-top: 175px;
+    
+    
+}
+
+.chef h2{
+    text-align: center;
+    margin-bottom: 135px;
+
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    font-weight: 700px;
+    line-height: 160px;
+
+}
+
+.chef-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chef-item{
+
+    text-align: center;
+}
+
+.chef-item h3{
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: 600px;
+    line-height: 50px;
+}
+
+.chef-item p{
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 400px;
+    line-height: 50px;
+    color: rgba(160, 141, 118, 0.5);
+
+    margin-bottom: 150px;
+}
+.chef-button{
+    text-align: center;
+    margin-bottom: 271px;
+}
+
+.chef-button a{
+    
+    color: #fff;
+    background-color: var(--orange);
+    text-decoration: none;
+    padding: 17px 78px;
+    border-radius: 162px;
+
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+
+
+    
+}
